@@ -1,5 +1,5 @@
 [package]
-name = "rusty_llama"
+name = "vox_ai"
 version = "0.1.0"
 edition = "2021"
 authors = ["Code to the Moon <ken@cttm.io>"]
@@ -40,7 +40,7 @@ opt-level = 3
 
 [package.metadata.leptos]
 # The name used by wasm-bindgen/cargo-leptos for the JS/WASM bundle. Defaults to the crate name
-output-name = "rusty_llama"
+output-name = "vox_ai"
 # The site root folder is where cargo-leptos generate all output. WARNING: all content of this folder will be erased on a rebuild. Use it in your server setup.
 site-root = "target/site"
 # The site-root relative folder where all compiled output (JS, WASM and CSS) is written

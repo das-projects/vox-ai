@@ -2806,7 +2806,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rusty_llama"
+name = "vox_ai"
 version = "0.1.0"
 dependencies = [
  "actix-files",

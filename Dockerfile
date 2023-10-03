@@ -1,5 +1,5 @@
-ARG RUST_VERSION=1.71.0
-ARG APP_NAME=rusty_llama
+ARG RUST_VERSION=1.72.1
+ARG APP_NAME=vox_ai
 ARG NODE_MAJOR=20
 ARG MODEL_NAME=llama-2-13b-chat.ggmlv3.q4_K_S.bin
 
@@ -7,6 +7,7 @@ FROM node:${NODE_MAJOR} AS tailwind-build
 
 WORKDIR /app
 COPY src src
+COPY $MODEL_NAME $MODEL_NAME
 COPY input.css .
 COPY tailwind.config.js .
 COPY package.json .
