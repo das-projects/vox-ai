@@ -2806,32 +2806,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "vox_ai"
-version = "0.1.0"
-dependencies = [
- "actix-files",
- "actix-rt",
- "actix-web",
- "actix-ws",
- "cfg-if",
- "console_error_panic_hook",
- "dotenv",
- "env_logger",
- "futures",
- "gloo-net 0.4.0",
- "leptos",
- "leptos_actix",
- "leptos_meta",
- "leptos_router",
- "llm",
- "rand",
- "serde",
- "tokio",
- "wasm-bindgen",
- "web-sys",
-]
-
-[[package]]
 name = "ryu"
 version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3518,6 +3492,32 @@ name = "version_check"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
+
+[[package]]
+name = "vox_ai"
+version = "0.1.0"
+dependencies = [
+ "actix-files",
+ "actix-rt",
+ "actix-web",
+ "actix-ws",
+ "cfg-if",
+ "console_error_panic_hook",
+ "dotenv",
+ "env_logger",
+ "futures",
+ "gloo-net 0.4.0",
+ "leptos",
+ "leptos_actix",
+ "leptos_meta",
+ "leptos_router",
+ "llm",
+ "rand",
+ "serde",
+ "tokio",
+ "wasm-bindgen",
+ "web-sys",
+]
 
 [[package]]
 name = "walkdir"

@@ -123,7 +123,7 @@ cfg_if! {
                     std::sync::mpsc::channel();
 
                 // Rustformers sessions need to stay on the same thread
-                // So we can't really rely on TOKIOOOOO
+                // So we can't really rely on TOKIO
                 let model_cloned = mdl.clone();
                 // let send_inference_cloned = send_inference.clone();
 
