@@ -92,7 +92,7 @@ pub fn App() -> impl IntoView {
         <Stylesheet id="leptos" href="/pkg/vox_ai.css"/>
 
         // sets the document title
-        <Title text="Welcome to Vox AI"/>
+        <Title text="Llama 2 Chat Bot"/>
         <ChatArea conversation/>
         <TypeArea send/>
     }
