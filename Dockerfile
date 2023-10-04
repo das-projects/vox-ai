@@ -1,7 +1,7 @@
 ARG RUST_VERSION=1.72.1
 ARG APP_NAME=vox_ai
 ARG NODE_MAJOR=20
-ARG MODEL_NAME=Wizard-Vicuna-30B-Uncensored.ggmlv3.q4_K_S.bin
+ARG MODEL_NAME=llama-2-13b-chat.ggmlv3.q4_K_S.bin
 
 FROM node:${NODE_MAJOR} AS tailwind-build
 
